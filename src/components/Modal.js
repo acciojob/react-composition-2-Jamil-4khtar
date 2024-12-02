@@ -8,8 +8,8 @@ function Modal({ show, onClose }) {
     return (
         <div className='model-overlay' onClick={onClose}>
             <button className='model-close' onClick={onClose}>Close</button>
-            <div className='model-content'>
-                <p className='model-p'>This is the content of the modal.</p>
+            <div className='model'>
+                <p className='p'>This is the content of the modal.</p>
             </div>
         </div>
     )
